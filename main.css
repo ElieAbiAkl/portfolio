@@ -12,7 +12,17 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
   }
+  .home-button{
+    width: 9em;
+    height: 7em;
+    border-radius: 4em;
+    margin-left: 4em;
+    margin-top: 2em;
+    background: none;
+    border: none;
+  }
   .title-design{
+    margin-top: 4em;
     font-family: "eurostile", sans-serif;
     font-size: 3.5rem !important;
     font-weight: 800;
@@ -26,30 +36,33 @@
   }
 .center-text{
   text-align: center;
-
 }
 .journey{
-   padding-left: 2em;
-   padding-right: 2em;
+    margin-top: 2em;
+   padding-left: 1em;
+   padding-right: 1em;
    max-width: 30em;
 }
 .journey-parent{
-    height: 20em;
+    margin-top: -10em;
+    padding-top: 5em;
+    height:30em;
     background-color: #6E07F3;
     color: white;
 }
 .parent-center{
-    margin-top: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 2em;
+    font-family: "europa", sans-serif;
+
 }
-.image-parent{
-    display: flex;
-    flex-direction: column;
+.img-parent{
+    display: block;
     align-items: center;
-    justify-content: center;
-    max-width: 100%;
+    margin: auto;
+    justify-items: center;
 }
 
 .Image-Avatar{
@@ -57,15 +70,17 @@
     justify-content: center;
     align-items: center;
     height: auto;
-    margin-top: 3em;
-    margin-bottom: 5em;
+    margin-top: 5.5em;
+    margin-bottom: -10em;
+    width: 22em;
+    height: 22em;
 }
-
 .Image-Main{
    display: flex;
   justify-content: center;
   align-items: center;
   height: auto;
-  width: 50em;
+  width: 75em;
+  height: 70em;
 
 }
