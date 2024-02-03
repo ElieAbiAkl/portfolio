@@ -1,6 +1,109 @@
-.container{
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+.top-nav{
+    margin-right: 2em;
+    display:flex;
+    background-color: #6E07F3;
+    overflow: hidden;
+    height: 6em;
+    max-width: 100%;
+}
+.home-button{
+    justify-content: start;
+    text-align: center;
+    color: purple;
+    padding: 2em;
+    font-size: 1.5em;
+}
+.button-container{
     display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.student-button,.say-hello{
+    justify-content: flex-end;
+    text-align: center;
+    color: purple;
+    padding: 2em;
+    font-size: 1.5em;
+}
+.top-nav a:hover{
+    background-color: lightpink;
+  color: purple;
+}
+
+  .title-design{
+    margin-top: 4em;
+    font-family: "eurostile", sans-serif;
+    font-size: 3.5rem ;
+    font-weight: 800;
+    color: #141c3a;
+  }
+  .what-ilove{
+    font-family: "europa", sans-serif;
+    line-height: 1.5;
+    margin-top: 1em;
+    font-size: 2em;
+  }
+.center-text{
+  text-align: center;
+}
+.journey{
+    margin-top: 2em;
+   padding-left: 1em;
+   padding-right: 1em;
+   max-width: 30em;
+}
+.journey-parent{
+    margin-top: -10em;
+    padding-top: 5em;
+    height:30em;
+    background-color: #6E07F3;
+    color: white;
+}
+.parent-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+    font-family: "europa", sans-serif;
+
+}
+.img-parent{
+    display: block;
+    align-items: center;
+    margin: auto;
+    justify-items: center;
+}
+
+.image-avatar{
+    display: block;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    height: auto;
+    margin-top: 5.5em;
+    margin-bottom: -10em;
+    width: 22em;
+    height: 22em;
+}
+.image-main{
+   display: block;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 75em;
+  height: 70em;
+
 }
